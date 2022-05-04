@@ -1,0 +1,336 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+html, body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: #ffffff;
+}
+.container{
+    width: 100%;
+}
+.header_info{
+    font-family: Montserrat;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.header_info img{
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+.header_info_bg{
+    background-color: #85BE7B;
+}
+.header_contact_group a{
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    text-decoration-line: none;
+    margin-right: 28px;
+}
+.social_media_icon{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.float_right {
+     float: right;
+}
+.float_left {
+    float: left;
+}
+.wrapper{
+    max-width: 1591px;
+    margin: auto;
+}
+.header_menu{
+    padding-top: 41px;
+}
+.header_menu a{
+    font-size: 18px;
+    color: #000000;
+    text-decoration-line: none;
+}
+.header_menu li{
+    list-style-type: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.more_about{
+    padding-top: 85px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #706969;
+}
+.more_about a{
+    font-size: 26px;
+    color: #7E5CAF;
+    text-decoration-line: none;
+}
+.more_about h1{
+    color: #1E1E1E;
+}
+.display_flex{
+    display: flex;
+}
+.big_pic{
+    padding-top: 85px;
+    margin-left: 102px;
+    max-width: 867px;
+    max-height: 582px;
+}
+.split_line{
+    margin-top: 79px;
+    justify-content: space-between;
+}
+.green_ellipse{
+    max-height: 26px;
+    max-width: 26px;
+}
+h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+.align_center{
+    margin: auto;
+    text-align: center;
+}
+.align_left{
+    text-align: left;
+}
+.align_right{
+    text-align: right;
+}
+.va_top{
+    vertical-align: top;
+}
+.big_circle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 156px;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    height: 156px;
+    width: 156px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #85BE7B;
+}
+.big_circle_bg2{
+    background-color: #7E5CAF;
+}
+.big_circle_bg3{
+    background-color: #FBC42F;
+}
+.big_circle_bg4{
+    background-color: #D97B92;
+}
+.small_circle{
+    margin-top: 27px;
+    margin-left: 305px;
+    margin-bottom: 222px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    background-color: #FBC42F;
+}
+.we_can{
+    vertical-align: top;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #706969;
+    max-width: 300px;
+    padding-top: 102px;
+}
+.justify_between{
+    justify-content: space-between;
+}
+.header_menu_dot{
+    margin: auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    background-color: #85BE7B;
+}
+.wave_background{
+    max-height: 1291px;
+    background-image: url("Images/wave.svg");
+}
+.wave_background h1{
+    color: white;
+}
+.we_are_img_box {
+    display: flex;
+    justify-content: center;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 156px;
+    height: 156px;
+    margin: auto;
+}
+.we_are_img_box img {
+    max-width: 115px;
+}
+.we_are_header{
+    max-width: 899px;
+}
+.we_are{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    max-width: 281px;
+    padding-top: 124px;
+    padding-bottom: 314px;
+}
+.warranty{
+    padding-top: 112px;
+}
+.warranty article{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #1E1E1E;
+    background-color: #FBC42F;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    max-width: 863px;
+    max-height: 531px;
+    margin-right: 243px;
+    padding: 133px 70px;
+}
+.warranty h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.warranty_main{
+    margin-top: 72px;
+}
+.warranty_right_block{
+   margin-bottom: 92px;
+}
+.check_icon{
+    margin-right: 38px;
+}
+.decor_bloc{
+    margin-top: 80px;
+    margin-left: 141px;
+    width: 182px;
+    height: 182px;
+    background: #D97B92;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+footer{
+    font-family: Montserrat;
+    margin-top: 74px;
+    padding-top: 105px;
+    max-height: 563px;
+    background-image: url("Images/footer_bg.svg");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+footer a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer_logo{
+    margin-bottom: 74px;
+}
+.footer_img{
+    margin-right: 8px;
+}
+.footer_box{
+    width: 100%;
+    margin-bottom: 39px;
+}
+.footer_wrapper{
+    max-width: 1562px;
+    margin: auto;
+}
+.copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+.no_margin{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+/* Кнопка выпадающего списка */
+.drop_btn img{
+    margin-left: 6px;
+}
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+}
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 6px 12px;
+    color: #1E1E1E;
+    border-top: solid #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #f1f1f1;}
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
